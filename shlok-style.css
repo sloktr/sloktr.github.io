@@ -1,0 +1,23 @@
+body {
+background-color: black;
+text-decoration-color: white;
+        }
+h1 {
+font-family: monospace;
+font-size: 3em;
+animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+0% { color: red; }
+50% { color: blue; }
+100% { color: red; }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+text-align:center;
+}
